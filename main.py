@@ -12,7 +12,7 @@ class Student:
     def change_age (self, new_age:int):
         self.age = new_age
 
-    def add_tracks (self, new_tracks):
+    def add_track (self, new_tracks):
         self.tracks = new_tracks
     
     def get_score (self):
