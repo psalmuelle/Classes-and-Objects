@@ -12,8 +12,8 @@ class Student:
     def change_age (self, new_age:int):
         self.age = new_age
 
-    def add_track (self, new_tracks):
-        self.tracks = new_tracks
+    def add_track (self, new_tracks:str):
+        self.tracks.append(new_tracks)
     
     def get_score (self):
         return self.score
@@ -25,3 +25,4 @@ Bob.change_name("Peter")
 Bob.change_age(34)
 Bob.add_track("UI/UX")
 Bob.get_score()
+
